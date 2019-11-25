@@ -1,14 +1,15 @@
 import React from 'react'
+import ScrollBar from './../ScrollBar/ScrollBar'
 
   const Home = () => (
     <div className="App">
         <div className="Site-frame">
-        <header className="App-header">
-          <span className="Title">James B. Hankins</span>
-        </header>
-        <body className="App-body">
-        Stuff Goes Here!
-        </body>
+        <main className="App-body">
+          <header className="App-header">
+            <span className="Title">James B. Hankins</span>
+          </header>
+            <ScrollBar />
+          </main>
       </div>
     </div>
   )
