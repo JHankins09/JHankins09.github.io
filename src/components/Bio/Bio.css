@@ -1,23 +1,37 @@
-.bio {
+.bioWrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
-.jtronBio {
+.bioContainer{
+  overflow: scroll;
+  height: 85%;
+}
+
+.bioArticle {
   display: flex;
-  flex-direction: column;
-  background: rgba(0, 0, 0, .4);
+  flex-direction: row;
   border-radius: 30px;
   max-width: 90%;
   align-items: center;
+  justify-content: center;
 }
 
 .bioDescription {
   color: white;
   font-size: 18px;
   line-height: 25px;
+}
+
+.bioPhotoL {
+  border: 2px black ridge;
+  position: relative;
+  max-height: 300px;
+  margin-top: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  float: left;
 }
 
 .bioContent {
@@ -37,13 +51,13 @@
 }
 
 @media screen and (min-width: 600px) {
-  .bio {
-    height: 80vh;
+  .bioWrapper {
+    max-height: 80vh;
   }
 }
 
 @media screen and (max-width 600px) {
-  .bio {
-    height: 65vh;
+  .bioWrapper {
+    max-height: 65vh;
   }
 }

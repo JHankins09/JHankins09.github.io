@@ -22,11 +22,12 @@ h1 {
   main {
     width: 75vw;
     height: 100vh;
-    background-image: url('./Images/BG-Portfolio.jpg');
+    background: #5B676D;
+    /* background-image: url('./Images/BG-Portfolio.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
   }
 
   aside {
@@ -38,11 +39,12 @@ h1 {
   main {
     width: 100vw;
     height: 100vh;
-    background-image: url('./Images/BG-Portfolio.jpg');
+    background: #5B676D;
+    /* background-image: url('./Images/BG-Portfolio.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
   }
 
   aside {

@@ -7,11 +7,32 @@ const text = '♫B)🎶♬'
 
 const Intro = () => (
   <Fragment>
-    <div className='introSection'>
-      <img className='introPhoto' src={Me} alt='James B. Hankins' />
-      <h1 className='introTitle'>Hi, I'm James!</h1>
-      <p className='introDescription'>Thank's for visiting. Please enjoy some of my
-      favorite tunes while you learn more about me!<br/>{ReactEmoji.emojify(text)}</p>
+    <div className='introWrapper'>
+      <div className='imageWrapper'>
+        <img className='introPhoto' src={Me} alt='James B. Hankins' />
+      </div>
+      <div className='textWrapper'>
+        <h1 className='introTitle'>Hi, I'm James!</h1>
+        <hr/>
+        <p className='introDescription'>
+        Thanks for visiting my page. I hope you enjoy a few of my favorite tunes
+        and getting to know a bit about me!
+        <br/>
+        <br/>
+        To quickly introduce myself &mdash; I’m a Seattle based Software Developer
+        with a true passion for creating outstanding content online. How I managed
+        to find that passion (or end up in Seattle!) are a bit of a long story,
+        but don't worry! &mdash; You can read all about it on the 'My Story' section!
+        <br/>
+        <br/>
+        To give a quick overview of some of my driving philosophies, I believe no
+        individual is greater than the sum of their tribe, everything should be
+        built for mobile, and that so called "Dad Jokes" are the pinical of
+        hilarity. I hope your time on my site allows me to proove these things.
+        <br/>
+        <br/>
+        Now then... Let's get rockin' {ReactEmoji.emojify(text)}</p>
+      </div>
     </div>
   </Fragment>
 )

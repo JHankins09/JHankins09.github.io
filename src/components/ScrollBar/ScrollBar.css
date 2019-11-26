@@ -8,6 +8,7 @@
   width: 75vw;
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4));
   align-items: center;
 }
 
