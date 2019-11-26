@@ -1,0 +1,49 @@
+.bio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.jtronBio {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, .4);
+  border-radius: 30px;
+  max-width: 90%;
+  align-items: center;
+}
+
+.bioDescription {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.bioContent {
+  max-width: 90%;
+  overflow-y: auto;
+  max-height: 60vh;
+}
+
+.bioPhoto {
+  border: 2px black ridge;
+  position: relative;
+  max-height: 300px;
+  margin-top: 15px;
+  margin-left: 15px;
+  display: inline-block;
+  float: right;
+}
+
+@media screen and (min-width: 600px) {
+  .bio {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width 600px) {
+  .bio {
+    height: 65vh;
+  }
+}

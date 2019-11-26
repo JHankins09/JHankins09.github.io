@@ -3,24 +3,36 @@
 }
 
 .scrollBar {
-  background-color: #8e44ad;
   margin: 0;
+  height: 10vh;
+  width: 75vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 60vh;
 }
 
 .card {
-  background-color: #222;
   display: flex;
   min-width: 100%;
-  min-height: 200px;
+  min-height: auto;
   overflow-x: auto;
 }
 
 .card--content {
-  background-color: #e74c3c;
-  min-width: 200px;
+  display: flex;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, .3);
+  min-width: 20vw;
+  height: 5vh;
   margin: 5px;
+  justify-content: center;
+  align-items: center;
+  border: white 1px solid;
+}
+
+@media screen and (max-width: 600px) {
+  .scrollBar {
+    bottom: 15vh;
+    width: 100vw;
+  }
 }
