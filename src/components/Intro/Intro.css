@@ -1,11 +1,19 @@
 .introWrapper {
   height: 80vh;
-  margin-left: 10%;
-  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  padding: 0 5%;
+}
+
+.introHeader {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: black 5px solid;
 }
 
 .imageWrapper {
@@ -13,6 +21,8 @@
   width: 50%;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .introPhoto {
@@ -21,6 +31,7 @@
   border: black 5px groove;
   max-height: 400px;
   max-width: 325px;
+  height: auto;
   width: 100%;
   height: auto;
 }
@@ -32,8 +43,11 @@
   width: 50%;
   height: 85%;
   overflow: scroll;
+  margin: 15px;
+  border: black 4px solid;
+  border-radius: 35px;
+  background: #54626f;
 }
-
 
 .introDescription {
   text-align: left;
@@ -42,6 +56,7 @@
   color: white;
   font-size: 20px;
   line-height: 25px;
+  padding: 35px 15px 5px 15px;
 }
 
 
@@ -53,11 +68,27 @@
 @media screen and (max-width: 1000px) {
   .introWrapper {
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
   .textWrapper {
-    width: auto;
+    visibility: hidden;
+    height: 0;
   }
   .imageWrapper {
     padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .introTitle {
+    font-size: 18px;
+  }
+  .introThanks {
+    visibility: hidden;
+    height: 0;
+  }
+  .imageWrapper {
+    margin-bottom: -45px;
   }
 }

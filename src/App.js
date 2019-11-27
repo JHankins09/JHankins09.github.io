@@ -11,17 +11,23 @@ import Resume from './components/Resume/Resume'
 import Personal from './components/Personal/Personal'
 import Intro from './components/Intro/Intro'
 
+// <Route path="/" exact component={Intro} />
+// <Route path="/Bio" exact component={Bio} />
+// <Route path="/skills" exact component={Skills} />
+// <Route path="/personal" exact component={Personal} />
+// <Route path="/resume" exact component={Resume} />
 const App = () => (
   <Fragment>
     <Router>
       <main>
-        <Route path="/" component={Header} />
-        <Route path="/" exact component={Intro} />
-        <Route path="/Bio" exact component={Bio} />
-        <Route path="/skills" exact component={Skills} />
-        <Route path="/personal" exact component={Personal} />
-        <Route path="/resume" exact component={Resume} />
-        <Route path="/" component={ScrollBar} />
+        <div className='header'>
+          <Route path="/" component={Header} />
+        </div>
+        <div className='appContent'>
+        </div>
+        <div className='footer'>
+          <Route path="/" component={ScrollBar} />
+        </div>
       </main>
       <aside>
         <Route path="/" component={Spotify} />

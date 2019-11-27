@@ -9,11 +9,16 @@
   height: 85%;
 }
 
+.bioTitle {
+  text-align: center;
+}
+
 .bioArticle {
   display: flex;
   flex-direction: row;
   border-radius: 30px;
   max-width: 90%;
+  margin-left: 5%;
   align-items: center;
   justify-content: center;
 }
@@ -50,14 +55,19 @@
   float: right;
 }
 
+
 @media screen and (min-width: 600px) {
   .bioWrapper {
     max-height: 80vh;
+    max-width: 100vw;
+    width: auto;
   }
 }
 
 @media screen and (max-width 600px) {
   .bioWrapper {
     max-height: 65vh;
+    max-width: 100vw;
+    width: auto;
   }
 }

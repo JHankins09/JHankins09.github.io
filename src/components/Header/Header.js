@@ -6,8 +6,8 @@ import './Header.css'
 
   const Header = () => (
     <div className='header'>
-      <h1 className='title'><Link to='/'>JBH.Dev</Link></h1>
-      <h1 className='description'><Link to='/skills/'>Developer</Link> | <Link to='/resume/'>Marketer</Link> | Pun-maker</h1>
+      <h1 className='title'><Link to='/'>JamesHankins.Dev</Link><br/>
+      <span className='description'><Link to='/skills/'>Software Developer</Link> / <Link to='/resume/'>Marketer</Link></span></h1>
     </div>
   )
 

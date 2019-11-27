@@ -10,16 +10,18 @@ const Intro = () => (
     <div className='introWrapper'>
       <div className='imageWrapper'>
         <img className='introPhoto' src={Me} alt='James B. Hankins' />
+        <hr width="50%"/>
+        <h1 className='introTitle'>Hi, I'm James&mdash;A Seattle based Software Developer / Marketer</h1>
+        <hr width="50%"/>
+        <h1 className='introTitle introThanks'>Thanks for visiting my page!</h1>
       </div>
       <div className='textWrapper'>
-        <h1 className='introTitle'>Hi, I'm James!</h1>
-        <hr/>
         <p className='introDescription'>
-        Thanks for visiting my page. I hope you enjoy a few of my favorite tunes
-        and getting to know a bit about me!
+        I hope you enjoy a few of my favorite tunes
+        while getting to know a bit about me!
         <br/>
         <br/>
-        To quickly introduce myself &mdash; I’m a Seattle based Software Developer
+        I’m a Seattle based Software Developer
         with a true passion for creating outstanding content online. How I managed
         to find that passion (or end up in Seattle!) are a bit of a long story,
         but don't worry! &mdash; You can read all about it on the 'My Story' section!
