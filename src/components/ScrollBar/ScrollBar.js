@@ -2,14 +2,19 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './ScrollBar.css'
 
+// <div className="scrollArrows">
+// <span className="scrollLeftArrow">&larr;</span><span className="scrollRightArrow">&rarr;</span>
+// </div>
+
   const ScrollBar = () => (
     <section>
-      <div className="scrollBar">
+    <div className="scrollBar">
         <section className="card">
           <Link className="bioLink" to={'/bio/'}>
             <div className="card--content">
               <h1 className="scrollLink">
-                About Me
+                About<br/>
+                Me
               </h1>
             </div>
           </Link>
