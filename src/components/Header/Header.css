@@ -9,11 +9,11 @@ a:hover {
 }
 
 .title {
-  font-size: calc(8vh * .6);
+  font-size: calc(8vh * .5);
 }
 
 .description {
-  font-size: calc(8vh * .4);
+  font-size: calc(8vh * .3);
 }
 
 @media screen and (min-width: 600px) {

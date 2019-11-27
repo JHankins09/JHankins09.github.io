@@ -11,7 +11,6 @@ import Resume from './components/Resume/Resume'
 import Personal from './components/Personal/Personal'
 import Intro from './components/Intro/Intro'
 
-// <Route path="/" exact component={Intro} />
 // <Route path="/Bio" exact component={Bio} />
 // <Route path="/skills" exact component={Skills} />
 // <Route path="/personal" exact component={Personal} />
@@ -24,6 +23,7 @@ const App = () => (
           <Route path="/" component={Header} />
         </div>
         <div className='appContent'>
+          <Route path="/" exact component={Intro} />
         </div>
         <div className='footer'>
           <Route path="/" component={ScrollBar} />

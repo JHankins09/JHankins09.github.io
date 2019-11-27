@@ -1,94 +1,62 @@
 .introWrapper {
-  height: 80vh;
+  background: blue;
+  height: 95%;
+  width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 0 5%;
 }
-
-.introHeader {
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  padding-bottom: 15px;
-  border-bottom: black 5px solid;
-}
-
 .imageWrapper {
+  background: purple;
+  height: 90%;
+  width: 45%;
   display: flex;
-  width: 50%;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  text-align: center;
+  font-size: calc(10vw * .12);
+  line-height: calc(10vw * .3);
 }
 
 .introPhoto {
-  display: block;
-  border-radius: 35px;
-  border: black 5px groove;
-  max-height: 400px;
-  max-width: 325px;
+  max-width: 90%;
+  max-height: 50%;
+  width: auto;
   height: auto;
-  width: 100%;
-  height: auto;
+  border-radius: 15px;
+  border: 5px grey solid;
+}
+
+.introTitle {
+  max-width: 80%;
+  text-align: left;
 }
 
 .textWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-  height: 85%;
-  overflow: scroll;
-  margin: 15px;
-  border: black 4px solid;
-  border-radius: 35px;
-  background: #54626f;
+  background: brown;
+  height: 90%;
+  width: 45%;
 }
-
-.introDescription {
-  text-align: left;
-  margin-top: -15px;
-  width: 75%;
-  color: white;
-  font-size: 20px;
-  line-height: 25px;
-  padding: 35px 15px 5px 15px;
-}
-
 
 @media screen and (max-width: 600px) {
   .introWrapper {
-    height: 65vh;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .introWrapper {
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
   }
-  .textWrapper {
-    visibility: hidden;
-    height: 0;
-  }
-  .imageWrapper {
-    padding-bottom: 15px;
-  }
-}
 
-@media screen and (max-height: 700px) {
-  .introTitle {
-    font-size: 18px;
-  }
-  .introThanks {
-    visibility: hidden;
-    height: 0;
-  }
   .imageWrapper {
-    margin-bottom: -45px;
+    width: 90%;
+    height: 40%;
+    flex-direction: row;
+  }
+
+  .textWrapper {
+    width: 90%;
+    height: 40%;
+  }
+
+  .introPhoto {
+    max-height: 250px;
+    height: 100%;
+    width: auto;
   }
 }
