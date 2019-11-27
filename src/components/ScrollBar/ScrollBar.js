@@ -10,6 +10,15 @@ import './ScrollBar.css'
     <section>
     <div className="scrollBar">
         <section className="card">
+
+          <Link className="homeLink" to={'/'}>
+            <div className="card--content">
+              <h1 className="scrollLink">
+                Home
+              </h1>
+            </div>
+          </Link>
+
           <Link className="bioLink" to={'/bio/'}>
             <div className="card--content">
               <h1 className="scrollLink">

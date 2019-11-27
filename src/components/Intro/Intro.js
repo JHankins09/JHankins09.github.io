@@ -5,38 +5,30 @@ import './Intro.css'
 
 const text = '♫B)🎶♬'
 
-// <p className='introDescription'>
-// I hope you enjoy a few of my favorite tunes
-// while getting to know a bit about me!
-// <br/>
-// <br/>
-// I’m a Seattle based Software Developer
-// with a true passion for creating outstanding content online. How I managed
-// to find that passion (or end up in Seattle!) are a bit of a long story,
-// but don't worry! &mdash; You can read all about it on the 'My Story' section!
-// <br/>
-// <br/>
-// To give a quick overview of some of my driving philosophies, I believe no
-// individual is greater than the sum of their tribe, everything should be
-// built for mobile, and that so called "Dad Jokes" are the pinical of
-// hilarity. I hope your time on my site allows me to proove these things.
-// <br/>
-// <br/>
-// Now then... Let's get rockin' {ReactEmoji.emojify(text)}</p>
 
 const Intro = () => (
   <Fragment>
     <div className='introWrapper'>
       <div className='imageWrapper'>
         <img className='introPhoto' src={Me} alt='James B. Hankins' />
-        <h1 className='introTitle'>Hi, i'm James {ReactEmoji.emojify('👋')}<br/>
-        <br/>
-        I'm a Seattle based Software Developer / Marketer.
-        <br/>
-        <br/>
-        Thanks for visiting my page!</h1>
+        <h1 className='introTitle'>Hi, I'm James {ReactEmoji.emojify('👋')}
+        <hr width='35%'/>
+        <span className='introTitle2'>I'm a <span className="highlight">Seattle</span> based <br/><span className="highlight">Developer / Marketer</span>.
+        </span></h1>
       </div>
       <div className='textWrapper'>
+        <p className='introDescription'>
+        <strong>Please enjoy some of my favorite <span className="highlight">music </span>
+        while you explore my site.</strong>
+        <hr width="20%" />
+        I'm a Cleveland sports fan, Boston transplant, and Seattle beer league hockey rookie. I love a
+        good pun and hate a warm beer. Rarely will I turn down an oyster, and
+        never will I say no to a good brussel sprout.
+        <hr width="20%" />
+        More importantly, I’m a Seattle based Developer <span className="highlight">passionate
+        about building better digital experiences</span>. Mobile compatibility,
+        stronger navigation, better user flows, maybe even music ({ReactEmoji.emojify(';)')}) - these are the elements of the
+        digital experience that I hope to make the cornerstone of my career.</p>
       </div>
     </div>
   </Fragment>

@@ -5,7 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #222222;
+  /* background: #222222; */
+  background-image: url('./Images/BG-Portfolio.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 code {
@@ -13,18 +18,15 @@ code {
     monospace;
 }
 
+.highlight {
+  color: lime;
+}
+
 h1 {
   color: white;
   font-family: 'Sulphur Point', sans-serif;
 }
 
-main {
-  /* background-image: url('./Images/BG-Portfolio.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed; */
-}
 
 .header {
     background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, 0));
