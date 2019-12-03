@@ -1,44 +1,90 @@
 .skillsContainer {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+  font-weight: bold;
+}
+
+.skillsDivider {
+  background: RGBA(3, 3, 4, .4);
+  border-radius: 15px;
+  border: RGBA(0, 0, 0, .4) 3px solid;
+  box-shadow: 6px 6px 3px rgba(0, 0, 0, .3);
 }
 
 .skillsWrapper {
-  width: 80%;
-  background: rgba(0, 0, 0, .3);
-  border-radius: 45px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  border-radius: 15px;
+  border: RGBA(0, 0, 0, .4) 3px solid;
+  max-height: 95%;
+  width: 95%;
+  height: 95%;
   overflow: auto;
 }
 
-.languages {
-  padding-top: 15px;
+.skillSection {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
 }
 
-p {
-  color: white;
-  font-size: 18px;
-  line-height: 25px;
+.skillsSectionTitle {
+  text-decoration: underline;
+  font-size: 4vh;
 }
 
-@media screen and (max-width: 600px) {
-  .skillsWrapper {
-    max-height: 65vh;
-  }
-  .skillsContainer {
-    height: 65vh;
-  }
+.skillsTitle {
+  background: RGBA(3, 3, 4, .4);
+  border-radius: 15px;
+  border: RGBA(0, 0, 0, .4) 3px solid;
+  box-shadow: 6px 6px 3px rgba(0, 0, 0, .3);
+  min-width: 35%;
+  width: auto;
+  height: 10%;
+  max-height: 50%;
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+  padding: 0 15px;
 }
 
-@media screen and (min-width: 600px) {
-  .skillsWrapper {
-    max-height: 80vh;
+.skillsDescription {
+  background: RGBA(3, 3, 4, .4);
+  border-radius: 15px;
+  border: RGBA(0, 0, 0, .4) 3px solid;
+  box-shadow: 6px 6px 3px rgba(0, 0, 0, .3);
+  flex-grow: 1;
+  text-align: center;
+  height: 10%;
+  max-height: 50%;
+  margin: 0 15px;
+}
+
+.skillElement {
+  display: inline-block;
+  padding: 15px;
+}
+
+@media screen and (max-width: 955px) {
+  .skillSection {
+    flex-direction: column;
   }
-  .skillsContainer {
-    height: 80vh;
+
+  .skillsTitle {
+    justify-content: center;
+    margin: 15px 0;
   }
+
+  .skillsSectionTitle {
+    text-align: center;
+    font-size: 4vh;
+  }
+
+  .skillsDivider {
+    display: block;
+    margin: 25px auto;
+    width: 75%;
+  }
+
 }

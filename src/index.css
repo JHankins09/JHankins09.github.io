@@ -19,7 +19,8 @@ code {
 }
 
 .highlight {
-  color: lime;
+  color: orange;
+  font-weight: bold;
 }
 
 h1 {
@@ -27,6 +28,11 @@ h1 {
   font-family: 'Sulphur Point', sans-serif;
 }
 
+p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+}
 
 .header {
     background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, 0));

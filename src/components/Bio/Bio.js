@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import ReactEmoji from 'react-emoji'
 import './Bio.css'
 import Article1Photo from './Article1Photo.jpg'
 import Article2Photo from './Article2.jpg'
@@ -8,101 +9,105 @@ import Article3Photo from './Article1.png'
     <Fragment>
         <div className='bioWrapper'>
           <div className='bioContainer'>
-          <h1 className='bioTitle'>About Me!</h1>
-
-        <div className='bioArticle'>
-          <div className='bioArticleCopy'>
-            <h1 className='bioArticleTitle'>Life as a Marketer
-            | August, '19 - Now</h1>
-
-            <img src={Article3Photo} alt='Fancy James' className='bioPhoto'/>
-            <hr/>
-            <p className='bioDescription'>I was extremely lucky to find myself at
-            an incredible organization after my college studies. I worked 5 years at
-            EF Educational Tours in both Customer Service as well as Marketing. It is
-            one of those organizations that weather outside looking in or inside looking
-            around, both would agree it runs on incredibly talented and passionate people.
-            <br/>
-            <br/>
-            When working in the Marketing team, I found a strong affinity to all things
-            technology. In fact, my role was as Marketing Technology Coordinator. I
-            built a love of making incredible digital experiences and a continuous drive
-            to push them even further. With incredible leadership and phenominal colleagues
-            we found ourselves pushing for extremely exctiting and ambitions content!
-            <br/>
-            <br/>
-            My role in this process was primarily in implimentation. I worked primarily
-            via a CMS platform, Ion, quickly found myself to be a master of it. But eventually,
-            we hit a point where what we wanted to build was more than what our CMS could
-            provide. I eventually left EF in pursuit of the software knowledge that
-            will allow me to continue to develop and deliver beautiful experiences
-            online.
-            </p>
-            <hr />
+            <div className='bioArticle'>
+              <div className='bioArticleCopy'>
+                <div className='bioDescription'>
+                <h1 className='bioArticleTitle'>About Me</h1>
+                <div className='mobOnly'>
+                <p>I’m a <span className="highlight">
+                Seattle based Developer passionate about building better digital
+                experiences</span>. Mobile compatibility, stronger navigation,
+                better user flows, maybe even music ({ReactEmoji.emojify(';)')})
+                &mdash;these are the elements of the digital experience that I
+                hope to make the cornerstone of my career.
+                </p>
+                <br/>
+                <br/>
+                </div>
+                <p>
+                This is the story of my journey from Boston based Marketer, to
+                Seattle based Developer!</p>
+                <hr width='35%' className='bioDivider'/>
+                <h1 className='bioArticleTitle'>June, '14 - June, '19'</h1>
+                <img src={Article3Photo} alt='EF Center Boston' className='bioPhoto'/>
+                <p>I was fortunate to find myself at
+                a fantastic organization shortly after my college studies. I
+                spent 5 years at EF Educational Tours in both Customer Service
+                as well as Marketing. This is where I found my desire to work in
+                technology. While with the Customer Service team, I became a power
+                user for our CRM system, as well as grew to be an advanced excel
+                users able to comb through customer data to identify various opportunities
+                and threats the customer service team could help address. Ultimately,
+                that desire to work in technology turned into a marketing role as
+                the Marketing Technology Coordinator.</p>
+                  <hr width='35%' className='bioDivider'/>
+                <p>My role focused primarily on the digital marketing presence. Working
+                with our design team, I developed a love of building beautiful digital
+                experiences. I was able to develop a strong skillset for our CMS
+                platform (Scribble Media&mdash;formerly Ion interactive) that allowed
+                us to build incredble lead caputure and customer engagement experiences!
+                While we enjoyed alot of success together, ultimately there came a
+                point where design features and functionality went beyond what our
+                CMS could accomplish. I left EF to pursue the software knowledge
+                that would allow me to continue to develop and deliver even greater
+                digital experiences.</p>
+                  <hr width='35%' className='bioDivider'/>
+                <h1 className='bioArticleTitle'>June, '19 - September, '19'</h1>
+                <p>Following EF, I found myself in a software Bootcamp led by the
+                phenominal folks at General Assembly. I can't speak highly enough
+                about my experience there. (To any would-be Bootcampers or anyone
+                with an interest in the course at G.A.&mdash;please feel free to
+                reach out and connect!) I joined the 'Software Engineering Immersive'
+                3 cohort in Boston, MA.</p>
+                  <hr width='35%' className='bioDivider'/>
+                  <img src={Article2Photo} alt='General Assembly Boston' className='bioPhotoR'/>
+                <p>In the 12 week program, I went from knowing
+                just enough about software to be dangerous on accident, to being
+                knowledgable enough to be dangerous on purpose. A common question
+                I recieve is what the most important take-aways are from the course.</p>
+                  <hr width='35%' className='bioDivider'/>
+                <p>First, they tought me to find, read, <em>understand and create </em>
+                 software documentation. I'm a firm believer in the importance of
+                documentation&mdash;from robust documentation like the JS MDN docs
+                to how to effectively comment your own code.</p>
+                  <hr width='35%' className='bioDivider'/>
+                <p>Second, alot of being successful in software is found in
+                uncomfortable, frusterating, sometimes overwhelming moments. The
+                Growth Mindset is an imparative one to learning software, and the
+                best way to facilitate those moments is to dive in, probably fail
+                a few times, but persist until you succeed. Whether in the bootcamp
+                system or simply learning online through tutorials and videos, this
+                is a key part of learning to code. I'm extremely greatful to the
+                GA community for my education there.</p>
+                  <hr width='35%' className='bioDivider'/>
+                <h1 className='bioArticleTitle'>September, '19 - Current</h1>
+                <img src={Article1Photo} alt='James and Meagan' className='bioPhoto'/>
+                <p>During the excitment of my learning to code, my partner, Meagan,
+                found herself applying for her own continued education. After
+                recieving offers to study at a number of institutions around the
+                country, she chose to get her Masters degree in Public Health at
+                the University of Washington. So after completing the General
+                Assembly Bootcamp, we loaded up my mazda 3 and set
+                out for the great Atlantic Northwest.</p>
+                  <hr width='35%' className='bioDivider'/>
+                <p>And that leads me here. I'm a Cleveland sports fan, Boston transplant,
+                and Seattle beer league hockey rookie. I love a good pun and hate
+                a warm beer. Rarely will I turn down an oyster, and never will I
+                say no to a good brussel sprout.</p>
+                <br/>
+                <br/>
+                <p>But more importantly, I’m a <span className="highlight">Seattle
+                based Developer passionate about building better digital experiences</span>.
+                Mobile compatibility, stronger navigation, better user flows, maybe
+                even music ({ReactEmoji.emojify(';)')}) - these are the elements of the
+                digital experience that I hope to make the cornerstone of my career.</p>
+                <br/>
+                <br/>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div className='bioArticle'>
-          <div className='bioArticleCopy'>
-            <h1 className='bioArticleTitle'>Learning Software Literacy
-            | June, '19 - Septermber, '19'</h1>
-            <img src={Article2Photo} alt='Fancy James' className='bioPhotoL'/>
-            <hr/>
-            <p className='bioDescription'>I was extremely fortunate to find the
-            phenominal folks at General Assembly when I started to get serious
-            about getting into software. I know there are alot of opinions about
-            the software bootcamp idea and General Assembly as one of it's players,
-            but all I can speak to was my expreince, and it was an outstanding one.
-            <br/>
-            <br/>
-            I joined the 'Software Engineering Immersive' 3 cohort in Boston, and it
-            is a deep regret of mine that I don't have a photo to commemorate our
-            group. In just 12 weeks, I went from knowing just enough about software
-            to be dangerous on accident, to being knowledgable enough to be dangerous
-            on purpose.
-            <br/>
-            <br/>
-            I get asked alot what the most important take-away was that I have from
-            my time with GA. I think there are 2 major ones really. First, they tought
-            me to find, read, and <em>understand</em> the documentation. (Equally, they
-            showed the importance of commenting your code and how difficutl it is to
-            collaborate without communicating!). Second, alot of being successful in
-            software is diving in, probably failing a few times, and persisting until
-            you succeed. I'm extremely greatful to the GA team and my classmates fort
-            my education there.
-            </p>
-            <hr />
-          </div>
-        </div>
-
-        <div className='bioArticle'>
-        <div className='bioArticleCopy'>
-        <h1 className='bioArticleTitle'>Finding Seattle
-        | August, '19 - Now</h1>
-        <img src={Article1Photo} alt='Fancy James' className='bioPhoto'/>
-        <hr/>
-        <p className='bioDescription'>I got to Seattle the same way that
-        one of the greatest fictional movie characters of all time (seriously,
-          don't test me on this...) closed one of the greatest movies to ever
-          be filmed... <em>'I went to see about a girl'</em>.
-          <br/>
-          <br/>
-          That's right. My incredible partner, Meagan, is attending the University
-          of Washington to pursue her masters in Public Health and Social Work. We
-          packed up the Mazda (that's right, read it and weap, car-lovers) and made
-          an 11 day voyage from the Atlantic coast to the Paci... Actually we only
-          have made it as far as the Pugent Sound... But still. We pretty much did it!
-          <br/>
-          <br/>
-          As I'm sure you can imagine, we have alot of opinions about traveling
-          across the country! Meagan and I would love to help give some tips to
-          any would-be road-trippers. Perhaps over a pint?
-          </p>
-          <hr />
-          </div>
-          </div>
-        </div>
-      </div>
     </Fragment>
   )
 

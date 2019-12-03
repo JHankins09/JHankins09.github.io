@@ -18,8 +18,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  font-size: calc(10vw * .12);
-  line-height: calc(10vw * .3);
+  font-size: 15vh;
+  line-height: 5vh;
 }
 
 .introPhoto {
@@ -39,7 +39,7 @@
 }
 
 .introTitle2 {
-  font-size: calc(20vw * .1);
+  font-size: 12vh;
   font-weight: bold;
 }
 
@@ -49,15 +49,16 @@
   border: RGBA(0, 0, 0, .4) 3px solid;
   box-shadow: 6px 6px 3px rgba(0, 0, 0, .3);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   text-align: left;
   height: 60%;
   max-width: 650px;
+  overflow-x: scroll;
+  margin: 15px 0;
 }
 
 .introDescription {
   padding: 0 10%;
-  overflow-x: auto;
   max-width: 330px;
   width: auto;
 }
