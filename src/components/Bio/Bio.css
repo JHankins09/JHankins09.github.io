@@ -1,0 +1,114 @@
+.mobOnly {
+  visibility: hidden;
+  height: 0;
+}
+
+.bioWrapper {
+  height: 95%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bioContainer {
+  height: 90%;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.bioArticle {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bioArticleCopy {
+  height: 90%;
+  width: 80%;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  overflow: scroll;
+}
+
+.bioDivider {
+  margin: 15px 0;
+}
+
+.bioArticleImage {
+  height: auto;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: calc(10vw * .12);
+  line-height: calc(10vw * .3);
+  padding: 15px;
+}
+
+.bioPhoto {
+  float: right;
+  display: inline-block;
+  max-width: 300px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+  border: 5px black solid;
+  margin: 0 15px;
+}
+
+.bioArticleTitle {
+  line-height: 4vh;
+  font-size: 3vh;
+}
+
+.bioPhotoR {
+  float: left;
+  display: inline-block;
+  max-width: 300px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+  border: 5px black solid;
+  margin: 0 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .bioPhoto {
+    float: right;
+    display: inline-block;
+    max-width: 150px;
+    max-height: 125px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    border: 5px black solid;
+    margin: 0 15px;
+  }
+
+  .bioPhotoR {
+    float: left;
+    display: inline-block;
+    max-width: 150px;
+    max-height: 125px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    border: 5px black solid;
+    margin: 0 15px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .bioArticleCopy {
+    padding: 10px 0;
+  }
+}

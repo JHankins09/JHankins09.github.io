@@ -1,0 +1,142 @@
+.resumeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  width: 90%;
+}
+
+.resumeHeader {
+  height: auto;
+  margin: 15px 0;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.resumeName {
+  background: RGBA(3, 3, 4, .4);
+  border-radius: 15px;
+  border: RGBA(0, 0, 0, .4) 3px solid;
+  box-shadow: 6px 6px 3px rgba(0, 0, 0, .3);
+  padding: 10px 25px;
+  margin: 5px 5px;
+  height: auto;
+  max-width: 45%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.resumePrimaryName {
+  margin: 0;
+}
+
+.resumePriaryNameTwo {
+  margin: 0;
+}
+
+.resumeContact {
+  background: RGBA(3, 3, 4, .4);
+  border-radius: 15px;
+  border: RGBA(0, 0, 0, .4) 3px solid;
+  box-shadow: 6px 6px 3px rgba(0, 0, 0, .3);
+  height: auto;
+  width: auto;
+  max-width: 55%;
+  padding: 10px 25px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.resumeContactTtitleElement {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.resumeContactDetailElement {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.resumeBody {
+  background: blue;
+  flex-grow: 1;
+  max-height: 75%;
+  height: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.resumeHistory {
+  background: pink;
+  flex-grow: 1;
+}
+
+.resumeHistoryModule {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.resumeHistoryTitleContainer {
+  width: 500px;
+
+}
+
+.resumeHistoryTitle {
+  font-size: 3vh;
+  font-weight: bolder;
+  background: grey;
+  margin: 0 auto;
+}
+
+.resumeHistorySubTitle {
+  font-size: 2h;
+  margin: 0 auto;
+}
+
+.resumeEducation {
+  background: purple;
+}
+
+@media screen and (max-width: 900px) {
+
+  .resumeHeader {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .resumeName {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .resumeName {
+    max-width: 80%;
+  }
+
+  .resumeContact {
+    max-width: 80%;
+    width: 70%;
+  }
+
+  .resumeBody {
+    flex-direction: column;
+  }
+
+  .resumeAside {
+    width: 100%;
+  }
+}
