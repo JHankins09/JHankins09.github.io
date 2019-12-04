@@ -130,7 +130,7 @@ const Skills = () => (
             <h1 className='skillsSectionTitle'>In Beta</h1>
           </div>
           <p className='skillsDescription'>
-            <span className='skillElement highlight'>
+            <span className='skillElement'>
               Python
               <i className="devicon-python-plain"></i>
             </span>

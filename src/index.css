@@ -65,7 +65,7 @@ p {
     height: 80vh;
   }
 
-  .header {
+  .subHeader {
     height: 10vh;
     width: calc(100vw - 250px);
     display: flex;

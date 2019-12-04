@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import ReactEmoji from 'react-emoji'
-import Me from './photo.jpg'
+import Me from './Photos/photo.jpg'
 import './Intro.css'
 
 const Intro = () => (

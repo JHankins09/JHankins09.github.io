@@ -125,7 +125,6 @@ textarea::placeholder {
   color: white;
   font-size: 2vw;
   font-weight: bold;
-  padding: 30% 0 0 0;
 }
 
 textarea:focus {
@@ -193,11 +192,14 @@ button {
   border-bottom: 3px white solid;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  height: 6vh;
-  margin: 15px 0;
-  font-weight: bolder;
   color: white;
   font-size: 2vw;
+  font-weight: bolder;
+  height: 6vh;
+}
+
+.formSubmit{
+  margin: 15px 0;
 }
 
 button:hover {

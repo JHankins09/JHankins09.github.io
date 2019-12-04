@@ -35,3 +35,24 @@
   font-size: 2vw;
   line-height: 2.5vw;
 }
+
+@media screen and (max-width: 900px) {
+  .bioPhoto {
+    height: 35vw;
+    min-height: 150px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bioArticleTitle {
+    font-size: 25px;
+  }
+  .bioSubHead {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .bioDescription {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}

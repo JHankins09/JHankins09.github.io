@@ -11,6 +11,7 @@ import Resume from './components/Resume/Resume'
 import Intro from './components/Intro/Intro'
 import Error from './components/Error/Error.js'
 import Contact from './components/Contact/Contact.js'
+import Projects from './components/Projects/Projects.js'
 
 // <Route path="/personal" exact component={Personal} />
 // <Route path="/resume" exact component={Resume} />
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/AboutMe" exact component={AboutMe} />
             <Route path="/skills" exact component={Skills} />
             <Route path="/contact" exact component={Contact} />
+            <Route path="/projects" exact component={Projects} />
             <Route component={Error} />
           </Switch>
           </div>
