@@ -5,12 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: #222222; */
-  background-image: url('./Images/BG-Portfolio.jpg');
+  background:
+             linear-gradient(
+               rgba(0, 0, 0, .3),
+               rgba(0, 0, 0, .3)
+               ),
+             url('./Images/BG-Portfolio.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+
 }
 
 code {
@@ -19,7 +24,7 @@ code {
 }
 
 .highlight {
-  color: orange;
+  color: #FF7619;
   font-weight: bold;
 }
 

@@ -5,6 +5,7 @@
   height: 80%;
   width: 80%;
   font-weight: bold;
+  text-align: center;
 }
 
 .skillsDivider {
@@ -15,76 +16,62 @@
 }
 
 .skillsWrapper {
-  border-radius: 15px;
-  border: RGBA(0, 0, 0, .4) 3px solid;
-  max-height: 95%;
-  width: 95%;
-  height: 95%;
+  max-height: 100%;
+  height: auto;
   overflow: auto;
 }
 
+.skillsDescription {
+  margin: 0;
+  padding: 15px 0 0 0;
+  text-align: right;
+}
+
 .skillSection {
+  padding: 35px 0;
   display: flex;
   flex-direction: row;
-  padding: 15px;
+  justify-content: space-between;
 }
 
 .skillsSectionTitle {
   text-decoration: underline;
-  font-size: 4vh;
-}
-
-.skillsTitle {
-  background: RGBA(3, 3, 4, .4);
-  border-radius: 15px;
-  border: RGBA(0, 0, 0, .4) 3px solid;
-  box-shadow: 6px 6px 3px rgba(0, 0, 0, .3);
-  min-width: 35%;
-  width: auto;
-  height: 10%;
-  max-height: 50%;
-  display: flex;
-  align-items: center;
-  margin: 0 15px;
-  padding: 0 15px;
-}
-
-.skillsDescription {
-  background: RGBA(3, 3, 4, .4);
-  border-radius: 15px;
-  border: RGBA(0, 0, 0, .4) 3px solid;
-  box-shadow: 6px 6px 3px rgba(0, 0, 0, .3);
-  flex-grow: 1;
-  text-align: center;
-  height: 10%;
-  max-height: 50%;
-  margin: 0 15px;
+  font-size: 4vw;
+  margin: 0;
+  text-align: left;
 }
 
 .skillElement {
   display: inline-block;
-  padding: 15px;
+  margin: 0 10px;
+  font-size: 2vw;
 }
 
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 800px) {
+  .skillsContainer {
+    text-align: left;
+    height: 95%;
+    width: 95%;
+  }
+
+  .skillsSectionTitle {
+    font-size: 30px;
+    text-align: center;
+  }
+
   .skillSection {
     flex-direction: column;
   }
 
-  .skillsTitle {
-    justify-content: center;
-    margin: 15px 0;
-  }
-
-  .skillsSectionTitle {
+  .skillsDescription {
     text-align: center;
-    font-size: 4vh;
   }
 
-  .skillsDivider {
-    display: block;
-    margin: 25px auto;
-    width: 75%;
+  .skillElement {
+    font-size: 20px;
   }
 
+  .skillsWrapper {
+    width: 95%;
+  }
 }

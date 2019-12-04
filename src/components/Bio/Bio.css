@@ -27,10 +27,6 @@
 }
 
 .bioArticleCopy {
-  background: RGBA(3, 3, 4, .4);
-  border-radius: 15px;
-  border: RGBA(0, 0, 0, .4) 3px solid;
-  box-shadow: 6px 6px 3px rgba(0, 0, 0, .3);
   height: 90%;
   width: 80%;
   padding: 0 15px;
@@ -112,8 +108,7 @@
 }
 
 @media screen and (max-width: 650px) {
-  .mobOnly {
-    visibility: visible;
-    height: auto;
+  .bioArticleCopy {
+    padding: 10px 0;
   }
 }

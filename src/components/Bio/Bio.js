@@ -13,7 +13,6 @@ import Article3Photo from './Article1.png'
               <div className='bioArticleCopy'>
                 <div className='bioDescription'>
                 <h1 className='bioArticleTitle'>About Me</h1>
-                <div className='mobOnly'>
                 <p>I’m a <span className="highlight">
                 Seattle based Developer passionate about building better digital
                 experiences</span>. Mobile compatibility, stronger navigation,
@@ -21,9 +20,6 @@ import Article3Photo from './Article1.png'
                 &mdash;these are the elements of the digital experience that I
                 hope to make the cornerstone of my career.
                 </p>
-                <br/>
-                <br/>
-                </div>
                 <p>
                 This is the story of my journey from Boston based Marketer, to
                 Seattle based Developer!</p>
@@ -94,15 +90,11 @@ import Article3Photo from './Article1.png'
                 and Seattle beer league hockey rookie. I love a good pun and hate
                 a warm beer. Rarely will I turn down an oyster, and never will I
                 say no to a good brussel sprout.</p>
-                <br/>
-                <br/>
                 <p>But more importantly, I’m a <span className="highlight">Seattle
                 based Developer passionate about building better digital experiences</span>.
-                Mobile compatibility, stronger navigation, better user flows, maybe
-                even music ({ReactEmoji.emojify(';)')}) - these are the elements of the
-                digital experience that I hope to make the cornerstone of my career.</p>
                 <br/>
                 <br/>
+                </p>
                 </div>
               </div>
             </div>

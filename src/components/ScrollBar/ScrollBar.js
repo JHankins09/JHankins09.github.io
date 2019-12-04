@@ -25,7 +25,7 @@ import './ScrollBar.css'
             </div>
           </Link>
 
-          <Link className="bioLink" to={'/bio/'}>
+          <Link className="bioLink" to={'/AboutMe/'}>
             <div className="card--content">
               <h1 className="scrollLink">
                 About<br/>

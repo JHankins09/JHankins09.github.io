@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
 import Header from './components/Header/Header'
-import Bio from './components/Bio/Bio'
+import AboutMe from './components/AboutMe/AboutMe'
 import Skills from './components/Skills/Skills'
 import Spotify from './components/Spotify/Spotify'
 import ScrollBar from './components/ScrollBar/ScrollBar'
@@ -24,7 +24,7 @@ const App = () => (
           <div className='appContent'>
           <Switch>
             <Route path="/" exact component={Intro} />
-            <Route path="/Bio" exact component={Bio} />
+            <Route path="/AboutMe" exact component={AboutMe} />
             <Route path="/skills" exact component={Skills} />
             <Route path="/contact" exact component={Contact} />
             <Route component={Error} />
