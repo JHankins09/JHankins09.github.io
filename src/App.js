@@ -17,7 +17,7 @@ import Projects from './components/Projects/Projects.js'
 // <Route path="/resume" exact component={Resume} />
 const App = () => (
   <Fragment>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <main>
           <div className='header'>
             <Route path="/" component={Header} />
