@@ -51,7 +51,7 @@ return (
             <button className='formSubmit' type="submit" value="Send This" onClick={event => onSubmit(event)}>Submit</button>
         </form>
       ) : (
-        <h1 className='responseText highlight'>Thank for reaching out, {sender}.
+        <h1 className='responseText'>Thank for reaching out, <span className='highlight'>{sender}</span>.
         <hr width="30%" />
         I'll get back to you shortly!</h1>
       )}

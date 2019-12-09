@@ -24,7 +24,7 @@
 .card {
   display: flex;
   min-width: 100%;
-  overflow-x: auto;
+  overflow: scroll;
 }
 
 .card--content:hover {

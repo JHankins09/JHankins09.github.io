@@ -11,6 +11,17 @@ import './ScrollBar.css'
 // </div>
 // </Link>
 
+// <Link className="code" to={'/code-snippets/'}>
+//   <div className="card--content">
+//     <h1 className="scrollLink">
+//       Code<br/>
+//       Snippets
+//     </h1>
+//   </div>
+// </Link>
+//
+
+
   const ScrollBar = () => (
     <section>
     <div className="scrollBar">
@@ -46,17 +57,8 @@ import './ScrollBar.css'
           <Link className="projects" to={'/projects/'}>
             <div className="card--content">
               <h1 className="scrollLink">
-                Projects<br/>
+                Project<br/>
                 Work
-              </h1>
-            </div>
-          </Link>
-
-          <Link className="code" to={'/code-snippets/'}>
-            <div className="card--content">
-              <h1 className="scrollLink">
-                Code<br/>
-                Snippets
               </h1>
             </div>
           </Link>

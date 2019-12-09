@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import ReactEmoji from 'react-emoji'
 import './AboutMe.css'
-import AboutMe from './AboutMe.jpg'
+import AboutMe from './Photos/AboutMe.jpg'
 
   const Bio = () => (
     <Fragment>
