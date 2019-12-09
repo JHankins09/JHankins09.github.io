@@ -25,6 +25,7 @@ const App = () => (
           <div className='appContent'>
           <Switch>
             <Route path="/" exact component={Intro} />
+            <Route path="/JamesHankinsDev" exact component={Intro} />
             <Route path="/AboutMe" exact component={AboutMe} />
             <Route path="/skills" exact component={Skills} />
             <Route path="/contact" exact component={Contact} />
