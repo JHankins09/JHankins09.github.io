@@ -1,0 +1,137 @@
+.projectCounter{
+  font-size: 10px;
+  font-style: italic;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.projectModule {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: black 2px solid;
+  padding: 10px;
+  border-radius: 15px;
+  height: 95%;
+  max-width: 80%;
+}
+
+.projectTitle {
+  height: auto;
+  width: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.projectType {
+  background: white;
+  border-radius: 5px;
+  color: #FF7619;
+  font-size: 14px;
+  padding: 5px 15px;
+}
+
+.projectHeaders {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.projectHeaderButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projectImage {
+  max-width: 60%;
+  width: auto;
+  border: white 2px solid;
+  border-radius: 15px;
+}
+
+.projectStack {
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
+.creds {
+  text-align: center;
+  margin: -15px 0 0 0;
+}
+
+.techTag {
+  background: #FF7619;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  width: auto;
+  display: inline-block;
+  padding: 5px 10px;
+  height: auto;
+  margin: 10px 5px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .projectModule {
+    height: auto;
+    margin: 0 auto 5vh auto;
+    display: block;
+  }
+  .projectTitle {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5%;
+  }
+  .projectName {
+    margin: 15px 0 0 0;
+  }
+  .projectType {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projectModule {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .projectHeaders {
+    flex-direction: column;
+  }
+
+  .projectImage {
+    max-width: 80%;
+    width: auto;
+    margin: 15px auto;
+  }
+
+  .projectHeaderButtons {
+    flex-direction: column;
+  }
+  .projectDescription {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .projectDescription {
+    visibility: hidden;
+    height: 0;
+  }
+  .projectType {
+    margin: 0;
+    font-size: 14px;
+  }
+  .projectName {
+    margin: 15px 0 0 0;
+    font-size: 30px;
+  }
+}

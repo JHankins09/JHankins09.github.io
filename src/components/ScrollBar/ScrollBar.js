@@ -57,7 +57,7 @@ import './ScrollBar.css'
           <Link className="projects" to={'/projects/'}>
             <div className="card--content">
               <h1 className="scrollLink">
-                Projects<br/>
+                Project<br/>
                 Work
               </h1>
             </div>

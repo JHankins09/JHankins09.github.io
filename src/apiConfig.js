@@ -1,6 +1,6 @@
 let apiUrl
 const apiUrls = {
-  production: '',
+  production: 'https://infinite-lake-75080.herokuapp.com',
   development: 'http://localhost:4741'
 }
 
