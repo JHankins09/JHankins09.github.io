@@ -57,7 +57,7 @@ const ProjectData ={
     description: `Custom client for Dad-Jokes API. Focus primarily dedicated to
                   mobile experience and CSS animations.`,
     gitHub: 'https://github.com/JamesHankinsDev/Dad-Joke-Client',
-    demoUrl: 'https://jameshankinsdev.github.io/Dad-Joke-Client/'
+    demoUrl: 'https://jameshankinsdev.github.io/Dad-Joke-Client'
   },
   trips: {
     number: 4,
