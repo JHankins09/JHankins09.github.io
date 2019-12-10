@@ -17,11 +17,12 @@ import Projects from './components/Projects/Projects.js'
 // <Route path="/resume" exact component={Resume} />
 // basename={process.env.PUBLIC_URL}
 
-console.log(process.env.PUBLIC_URL)
+console.log(process.env)
+const BASE_URL = process.env.PUBLIC_URL
 
 const App = () => (
   <Fragment>
-    <Router >
+    <Router basename={BASE_URL}>
       <main>
           <div className='header'>
             <Route path="/" component={Header} />
