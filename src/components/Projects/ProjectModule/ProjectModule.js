@@ -21,7 +21,7 @@ const ProjectModule = ( projects ) => {
             <button><Emojis.GitHub /></button>
           </a>
           { project.demo ?
-            ( <a href={project.demoUrl}>
+            ( <a href={project.demoUrl} target='_blank' rel='noopener noreferrer'>
                 <button>
                   <span className='skillElement'>Demo</span></button>
               </a>) :

@@ -79,7 +79,7 @@ return (
           </div>
         </a>
 
-        <a href='https://github.com/JHankins09' target='_blank'>
+        <a href='https://github.com/JamesHankinsDev' target='_blank'>
           <div className='socialModule'>
             <img src={GitHub} alt='GitHub' className='socialIcon'/>
             <p className='socialDescription notOnMob'>GitHub</p>

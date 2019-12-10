@@ -23,7 +23,7 @@ const ProjectData ={
     description: `This is my portfolio! Built with React and React Hooks, as
                  well as a minor backend to intigrate MailJet for emai forwarding.
                  This site is constantly under continuous development.`,
-    gitHub: 'https://github.com/JHankins09/portfolio-react',
+    gitHub: 'https://github.com/JamesHankinsDev/portfolio-react',
     demoUrl: 'Demo Url'
   },
   webchat: {
@@ -41,7 +41,7 @@ const ProjectData ={
     },
     description: `WebChat built as part of a tutorial from 'JavaScript Mastery'.
                   Not currently deployed.`,
-    gitHub: 'https://github.com/JHankins09/ChatApp-Client',
+    gitHub: 'https://github.com/JamesHankinsDev/ChatApp-Client',
     demoUrl: 'Demo Url'
   },
   dadjokes: {
@@ -56,8 +56,8 @@ const ProjectData ={
     creds: false,
     description: `Custom client for Dad-Jokes API. Focus primarily dedicated to
                   mobile experience and CSS animations.`,
-    gitHub: 'https://github.com/JHankins09/Dad-Joke-Client',
-    demoUrl: 'https://jhankins09.github.io/Dad-Joke-Client-2/'
+    gitHub: 'https://github.com/JamesHankinsDev/Dad-Joke-Client',
+    demoUrl: 'https://JamesHankinsDev.github.io/Dad-Joke-Client-2/'
   },
   trips: {
     number: 4,
@@ -74,8 +74,8 @@ const ProjectData ={
     },
     description: `App for simple construction of travel itineraries, as well as to
                   take notes of highlights of various destinations on a trip.`,
-    gitHub: 'https://github.com/JHankins09/trips-client',
-    demoUrl: 'https://jhankins09.github.io/trips-client/#/'
+    gitHub: 'https://github.com/JamesHankinsDev/trips-client',
+    demoUrl: 'https://JamesHankinsDev.github.io/trips-client/#/'
   },
   chickenpix: {
     number: 5,
@@ -111,8 +111,8 @@ const ProjectData ={
     },
     description: `Built to develop and keep track of various rosters of individuals.
                   Leverages open-read resources from Ruby on Rails.`,
-    gitHub: 'https://github.com/JHankins09/Groups-Client',
-    demoUrl: 'https://jhankins09.github.io/Groups-Client/'
+    gitHub: 'https://github.com/JamesHankinsDev/Groups-Client',
+    demoUrl: 'https://JamesHankinsDev.github.io/Groups-Client/'
   },
   tictactoe: {
     number: 7,
@@ -129,8 +129,8 @@ const ProjectData ={
     },
     description: `Custom Client and game engine built onto third party API.
                   Leverages vanilla javascript making AJAX JSON calls.`,
-    gitHub: 'https://github.com/JHankins09/Tic-Tac-Toe-Game',
-    demoUrl: 'https://jhankins09.github.io/Tic-Tac-Toe-Game/'
+    gitHub: 'https://github.com/JamesHankinsDev/Tic-Tac-Toe-Game',
+    demoUrl: 'https://JamesHankinsDev.github.io/Tic-Tac-Toe-Game/'
   }
 }
 
