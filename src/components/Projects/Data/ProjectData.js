@@ -23,7 +23,7 @@ const ProjectData ={
     description: `This is my portfolio! Built with React and React Hooks, as
                  well as a minor backend to intigrate MailJet for emai forwarding.
                  This site is constantly under continuous development.`,
-    gitHub: 'https://github.com/JamesHankinsDev/portfolio-react',
+    gitHub: 'https://github.com/JamesHankinsDev/portfolio',
     demoUrl: 'Demo Url'
   },
   webchat: {
@@ -57,7 +57,7 @@ const ProjectData ={
     description: `Custom client for Dad-Jokes API. Focus primarily dedicated to
                   mobile experience and CSS animations.`,
     gitHub: 'https://github.com/JamesHankinsDev/Dad-Joke-Client',
-    demoUrl: 'https://JamesHankinsDev.github.io/Dad-Joke-Client-2/'
+    demoUrl: 'https://jameshankinsdev.github.io/Dad-Joke-Client/'
   },
   trips: {
     number: 4,
