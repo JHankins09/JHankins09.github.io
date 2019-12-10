@@ -15,9 +15,13 @@ import Projects from './components/Projects/Projects.js'
 
 // <Route path="/personal" exact component={Personal} />
 // <Route path="/resume" exact component={Resume} />
+// basename={process.env.PUBLIC_URL}
+
+console.log(process.env.PUBLIC_URL)
+
 const App = () => (
   <Fragment>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router >
       <main>
           <div className='header'>
             <Route path="/" component={Header} />
@@ -30,6 +34,7 @@ const App = () => (
             <Route path="/contact" exact component={Contact} />
             <Route path="/projects" exact component={Projects} />
             <Route component={Error} />
+
           </Switch>
           </div>
           <div className='footer'>
