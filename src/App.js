@@ -22,7 +22,7 @@ const BASE_URL = process.env.PUBLIC_URL
 
 const App = () => (
   <Fragment>
-    <Router basename={BASE_URL}>
+    <Router >
       <main>
           <div className='header'>
             <Route path="/" component={Header} />
@@ -30,6 +30,7 @@ const App = () => (
           <div className='appContent'>
           <Switch>
             <Route path="/" exact component={Intro} />
+            <Route path="/Portfolio" exact component={Intro} />
             <Route path="/AboutMe" exact component={AboutMe} />
             <Route path="/skills" exact component={Skills} />
             <Route path="/contact" exact component={Contact} />
